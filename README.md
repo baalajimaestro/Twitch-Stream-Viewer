@@ -8,10 +8,13 @@ This is currently targeted at **Valorant Drops Enabled** streams, Valorant is in
 
 - Export `TWITCH_USERNAME` and `TWITCH_PASSWORD` to environment variables.
 
+- Compulsory you need two step verification for your account, else the script wouldnt proceed. This is done, coz twitch asks for a email confirmation if you login for a new browser, and a two step verification is by-far secure and comfortable on this process.
+
 - Run `pip install selenium xvfbwrapper`
 
-- Run the associated python file, twitch.py, boom!
+- Run the associated python file, twitch.py, enter the two-step password when prompted, boom!
 
+- Each time, you run it, you need to enter just that two-step password.
 
 ### How it works?
 

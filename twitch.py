@@ -7,10 +7,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver import ActionChains
 from time import sleep
 from os import environ
-from selenium.webdriver.common.action_chains import ActionChains
 from xvfbwrapper import Xvfb
 
 try:
